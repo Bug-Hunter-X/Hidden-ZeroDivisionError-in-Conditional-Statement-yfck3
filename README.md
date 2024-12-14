@@ -1,0 +1,1 @@
+This repository contains a simple Python program that demonstrates a subtle error. The program calculates 10/x, but it doesn't explicitly handle the case when x is 0. This leads to a ZeroDivisionError that is hidden inside a conditional statement, making it harder to spot during testing.  The solution showcases how to effectively handle this situation by using exception handling.
